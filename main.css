@@ -1,0 +1,144 @@
+#greeting {
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+  
+    color: white;
+    background-color: #845ec2;
+    text-shadow: 0 0 5px #333;
+    text-align: center;
+  
+    padding: 0.5em;
+  }
+  
+  body {
+    margin: 0px;
+    height: 100vh;
+  }
+  
+  #main {
+    display: flex;
+    height: 100%;
+  }
+  
+  #leftbar {
+    background-color: #9b89b3;
+    height: 100vh;
+    padding-top: 42px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #9b89b3;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lefttext {
+    text-align: center;
+    background-color: #945ece;
+    color: white;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+  
+  #usernameInput {
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  
+  #messageInput {
+    height: 100px;
+  }
+  
+  #buttonbox {
+    margin: 10px;
+  }
+  
+  #tweetButton {
+    margin-right: 10px;
+  
+    background-image: linear-gradient(
+      to right,
+      #1fa2ff 0%,
+      #12d8fa 51%,
+      #1fa2ff 100%
+    );
+    margin: 10px;
+    padding: 1px 4px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+    font-size: 1px;
+  
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #randomButton {
+    margin-left: 10px;
+  
+    background-image: linear-gradient(
+      to right,
+      #1fa2ff 0%,
+      #12d8fa 51%,
+      #1fa2ff 100%
+    );
+    margin: 10px;
+    padding: 1px 4px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+    font-size: 1px;
+  
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #tweet_list {
+    background: #fcf7ff;
+    width: 100%;
+  }
+  
+  #tweetWrapper {
+    list-style: none;
+  }
+  
+  .white {
+  }
+  
+  .tweet__username {
+    color: white;
+    font-weight: bold;
+    background-color: #845ec2;
+    border-radius: 3px;
+    line-height: 20px;
+  }
+  
+  .tweet__createdAt {
+    color: #9b89b3;
+    font-size: 7px;
+    line-height: 20px;
+  }
+  
+  .tweet__message {
+    color: #9b89b3;
+    border-bottom: solid 1px blueviolet;
+    line-height: 20px;
+  }
+  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>twittler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+    <header id="greeting">twittler</header>
+
+    <div id="main">
+      <div id="leftbar">
+        <div class="login">
+          <div class="lefttext">username</div>
+          <input type="text" id="usernameInput" value="" />
+          <div class="lefttext">message</div>
+          <input type="text" id="messageInput" value="" />
+        </div>
+
+        <div id="buttonbox">
+          <button id="tweetButton" value="">
+            Tweet!
+          </button>
+          <button id="randomButton" value="">
+            Refresh
+          </button>
+        </div>
+      </div>
+      <div id="tweet_list">
+        <section id="tweetlist" class="white"></section>
+        <ul id="tweetWrapper">
+          <li class="white">
+            <span class="tweet__username"> </span>
+            <div class="tweet__createdAt"></div>
+            <div class="tweet__message"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Tweet lists -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
